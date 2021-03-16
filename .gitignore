@@ -26,4 +26,5 @@ yarn-error.log*
 /src/app.js
 /src/app.css
 /src/marks.js
+/src/App.test.js
 
