@@ -16,6 +16,7 @@ export const MemesGenerator = () => {
         fetch("https://api.imgflip.com/get_memes").then(res => {
             res.json().then(response => setTemplates(response.data.memes))
         })
+        console.log(templates)
     }, [])
 
     if (meme) {
